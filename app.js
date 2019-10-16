@@ -23,7 +23,7 @@ const db = require('./config/database');
 mongoose.Promise = global.Promise;
 // Connect to mongoose
 mongoose
-  .connect(db.mongoURI, {
+  .connect(db.mongoURI.toString(), {
     useMongoClient: true
   })
   .then(() => console.log('MongoDB Connected...'))
