@@ -1,4 +1,5 @@
 {{#each ideas}}
+<div class="container">
   <div class="card card-body mb-2">
     <h4>{{title}}</h4>
     <p>{{details}}</p>
@@ -8,6 +9,7 @@
       <input type="submit" class="btn btn-danger btn-block" value="Delete">
     </form>
   </div>
+</div>
 {{else}}
-  <p>No video ideas listed</p>
+<p>No video ideas listed</p>
 {{/each}}
