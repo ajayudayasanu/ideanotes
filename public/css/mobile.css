@@ -1,0 +1,34 @@
+.box {
+  float: none;
+  width: 100%;
+}
+
+.info-img {
+  display: block;
+  width: 100%;
+}
+.info-content {
+  display: block;
+  width: 100%;
+}
+/* Smartphones */
+@media (max-width: 500px) {
+  #showcase .showcase-content {
+    top: 110px;
+  }
+}
+
+@media (max-height: 568px) {
+  #showcase .showcase-content {
+    margin-top: -5.3rem;
+    top: 140px;
+  }
+
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
