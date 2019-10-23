@@ -3,18 +3,27 @@
   width: 100%;
 }
 
-.info-img {
-  display: block;
+#home-info .info-img {
+  float: none;
   width: 100%;
 }
-.info-content {
-  display: block;
+#home-info .info-content {
+  float: left;
   width: 100%;
 }
 /* Smartphones */
 @media (max-width: 500px) {
   #showcase .showcase-content {
     top: 110px;
+  }
+
+  .jfk-quotes {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  #home-info .info-img {
+    background: url('../img/JFK2.jpg') no-repeat;
   }
 }
 
