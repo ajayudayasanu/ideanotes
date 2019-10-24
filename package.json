@@ -1,7 +1,7 @@
 {
-  "name": "vidjot",
-  "version": "1.0.0",
-  "description": "App to create video ideas",
+  "name": "ideanotes",
+  "version": "2.0.0",
+  "description": "node application to store ideas",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
